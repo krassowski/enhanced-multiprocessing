@@ -2,7 +2,7 @@
 
 A wrapper around Python's multiprocessing, providing support for tqdm progress bars and shared arguments.
 
-Provides familiar interface with addiitonal powers.
+Provides simple, familiar interface with addiitonal superpowers.
 
 ### Installation
 
@@ -21,7 +21,7 @@ def add_n(x, n):
 # the number of processes will be set to number of cores - 1 by default
 p = Pool()
 
-# will apply add_n to the element list of length three with n=5:
+# will apply add_n to the element list of length three with n=5, showing a nice progress bar along
 result = p.imap(add_n, [1, 2, 3], shared_args=(5, ))
 
 assert result == [6, 7, 8]
@@ -29,4 +29,4 @@ assert result == [6, 7, 8]
 
 
 ### History
-Originally published at https://github.com/kn-bibs/pathways-analysis/, then further developed for https://github.com/krassowski/drug-disease-profile-matching.
+Originally published at [kn-bibs/pathways-analysis](https://github.com/kn-bibs/pathways-analysis/), then further developed for [krassowski/drug-disease-profile-matching](https://github.com/krassowski/drug-disease-profile-matching).
