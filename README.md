@@ -24,7 +24,7 @@ p = Pool()
 # will apply add_n to the element list of length three with n=5, showing a nice progress bar along
 result = p.imap(add_n, [1, 2, 3], shared_args=(5, ))
 
-assert result == [6, 7, 8]
+assert list(result) == [6, 7, 8]
 ```
 
 
