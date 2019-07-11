@@ -2,7 +2,7 @@
 
 A wrapper around Python's multiprocessing, providing support for tqdm progress bars and shared arguments.
 
-Provides simple, familiar interface with addiitonal superpowers.
+Provides simple, familiar interface with additional superpowers.
 
 ### Installation
 
